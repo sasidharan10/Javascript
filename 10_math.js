@@ -1,0 +1,44 @@
+let m = Math;
+console.log(m);
+
+console.log('The value of PI : ', Math.PI);
+console.log('The value of E : ', Math.E);
+console.log('The value of LOG2E : ', Math.LOG2E);
+
+let a = 34.56;
+let b = 67;
+let c = [10, 20, 30, 40];
+
+console.log('The value of a and b : ', a, b);
+console.log('The rounded value of a and b : ', Math.round(a), Math.round(b));
+
+console.log(`The floor value of ${a} : `, Math.floor(a));
+console.log(`The ceil value of ${a} : `, Math.ceil(a));
+
+console.log('The square root of 36 : ', Math.sqrt(36));
+console.log('The square root of 45 : ', Math.sqrt(45));
+
+console.log('The value of 2 raise 4 : ', Math.pow(2, 4));
+console.log('The value of 4 raise 3 : ', Math.pow(4, 3));
+
+console.log('The absolute value of -5.56 : ', Math.abs(-5.56));
+
+console.log('The max value of 4,5,6,7 : ', Math.max(4, 5, 6, 7));
+console.log('The min value of 4,5,6,7 : ', Math.min(4, 5, 6, 7));
+
+console.log('The mav value of c : ', Math.max(...c));
+console.log('The mav value of c : ', Math.max(...c));
+
+console.log('The value of sin(10) : ', Math.sin(10));
+console.log('The value of cos(10) : ', Math.cos(10));
+console.log('The value of tan(10) : ', Math.tan(10));
+
+let r = Math.random();
+console.log('The random value 0-1 : ', r);
+
+let x = 1;
+let y = 100;
+let ran = x + (y - x) * Math.random();
+console.log('The random value 1-100 : ', ran);
+
+
