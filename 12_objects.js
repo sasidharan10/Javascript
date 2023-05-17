@@ -13,7 +13,7 @@ console.log("Name: "+obj1.name+"\nAge: "+obj1.age+"\nGender: "+obj1.gender+"\nCi
 
 /*
 
-- Object is an instance of a class, similar to calss in  c++, java
+- They are similar to calss in  c++, java
 
 */
 
