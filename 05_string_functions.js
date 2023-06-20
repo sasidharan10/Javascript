@@ -37,3 +37,10 @@ console.log("str.charAt(0): " + str.charAt(0));
 console.log("str.charCodeAt(0): " + str.charCodeAt(0));
 
 console.log("str[6]: " + str[6]);  // giving the char at given index
+console.log("str.concat(): " + str.concat(" asda", " xcdfs"));  // giving the char at given index
+
+ /*
+ 
+- String are immutable in JS
+
+ */
