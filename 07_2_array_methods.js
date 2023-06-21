@@ -34,3 +34,12 @@ let arr1 = arr.slice(2);
 console.log(`Array after slice: ${arr1}`);
 let arr2 = arr.slice(0, 6);
 console.log(`Array after slice: ${arr2}`);
+
+
+// convert a string or collection into an array
+
+let str = "good";
+
+let s = Array.from(str);
+console.log(typeof s);
+console.log(s);

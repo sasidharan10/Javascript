@@ -18,16 +18,30 @@ for (element of arr)
     console.log(element);
 
 // For Each loop : 
+/*
+
+syntax:
+
+arr.forEach((element)=>{})
+arr.forEach((element, key)=>{})
+arr.forEach((element, key, array)=>{})
+
+*/
 
 console.log("for-each loop: ");
 name.forEach(function f(element) {
     console.log("Name is : " + element);
 });
 
-
 console.log("for-each loop(object): ");
 name.forEach(element => {
     console.log("Name is : " + element);
+});
+
+let a = [1, 2, 3, 4, 5];
+
+a.forEach((element, key, c) => {
+    console.log(`Key: ${key}, Element: ${element}, Array: ${c}`);
 });
 
 // For Objects : 
@@ -38,11 +52,11 @@ let employee = {
     clg: "srit",
 }
 
-// For In loop : specifically for Objects
+// For In loop : specifically for Objects, returns key
 
 console.log("for in loop: ");
 for (key in employee) {
-    console.log(key , " is : " + employee[key]);
+    console.log(key, " is : " + employee[key]);
 }
 
 // While loop : 
