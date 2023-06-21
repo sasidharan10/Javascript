@@ -12,8 +12,8 @@ function calc(a, b, operator) {
 
 let a = 5;
 let b = 3;
-console.log("Add: " + calc(a, b, add));
-console.log("Multiply: " + calc(a, b, multiply));
+console.log("Add: ", calc(a, b, add));
+console.log("Multiply: ", calc(a, b, multiply));
 
 
 

@@ -42,7 +42,7 @@ let employee = {
 
 console.log("for in loop: ");
 for (key in employee) {
-    console.log(key + " is : " + employee[key]);
+    console.log(key , " is : " + employee[key]);
 }
 
 // While loop : 

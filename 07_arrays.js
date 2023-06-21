@@ -1,3 +1,6 @@
+let arr = [1,2,3,4,5];
+console.log("arr: ", arr);
+
 // Types of data types
 let int = 24;
 let string = `sasi`;

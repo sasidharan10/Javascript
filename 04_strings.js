@@ -2,7 +2,7 @@ var string = "Sasi's";
 var a = 'i"am';
 var b = "friend";
 // String concatenation
-console.log("Concatenate: "+string + a + b);
+console.log("Concatenate: ", string + a + b);
 // Using variables inside a statement ${}
 console.log(`${b} is a good boy for ${string}`);
 // finding length of a variable using ".length" function
