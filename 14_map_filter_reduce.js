@@ -8,8 +8,8 @@ console.log("Array after modification: ", a1)
 
 // Array filter method
 let arr2 = [45, 23, 21, 0, 3, 5]
-let a2 = arr2.filter((a) => {
-    return a < 10;
+let a2 = arr2.filter((a, b) => {
+    return b>3;
 });
 
 console.log("Array after filtering: ", a2)
@@ -32,3 +32,5 @@ console.log("Array after reduction: ", a3)
   to its adjacent elements.
 
 */
+
+console.log();
