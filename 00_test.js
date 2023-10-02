@@ -1,22 +1,40 @@
-// let arr = [1,2,3,4,5];
+// let a = [1,2,3,4,5,6,7,8,9];
+// let b = [3,6,8,9];
 
-// arr.forEach((element, key, a)=>{
-//     console.log(`Key: ${key}, Element: ${element}, Array: ${a}`);
-// });
+// let c = a.filter((n)=>!b.includes(n));
 
-// let m = Math;
-let a = 44462963;
+// console.log(c);
 
-console.log(a);
+enrolled = [{
+    courseId: {
+        cid: 50
+    },
+    id: 100,
+},{
+    courseId: {
+        cid: 51
+    },
+    id: 200,
+},{
+    courseId: {
+        cid: 52
+    },
+    id: 300,
+},{
+    courseId: {
+        cid: 53
+    },
+    id: 400,
+}]
 
-let p = 0.1;
+let trg = 54;
 
-function getRecovered(a, p) {
-    let temp = Math.round((a * p) / 100);
-    let ans = a - temp;
-    return ans;
-}
+let result = enrolled.filter( (num) => {
+    if(num.courseId.cid === trg)
+    {
+        let ccid = num.courseId.cid;
+        return ccid;
+    }
+});
 
-// let result = 
-
-console.log(getRecovered(a, p).toLocaleString());
+console.log(result);
