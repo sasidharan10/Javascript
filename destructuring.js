@@ -33,7 +33,9 @@ let obj2 = {
 }
 
 // console.log({ ...obj2, name: "John", company: "ABC" })  // values will get overwritten
+const newObj = { name: "John", company: "ABC", ...obj2 };
 console.log({ name: "John", company: "ABC", ...obj2 }) // values won't get overwritten
+console.log(newObj) // values won't get overwritten
 
 
 // links:
